@@ -1,0 +1,596 @@
+.header-container
+    margin: auto
+    width: 70%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 10px 0
+    
+    .headerlogo
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .logodiv
+            width: 40px
+            margin-right: 10px
+        .header-image
+            width: 100%
+            height: 100%
+            background: white
+        .headertitle
+            font-size: 30px
+            font-weight: 600
+    .headerlist
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 0
+        .headerlist-item
+            margin: 10px
+            .headerlist-links
+                color: #413f3f
+                font-size: 18px
+                font-weight: 700
+                text-transform: capitalize
+                text-decoration: none
+    .headerright
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 0
+        .headerright-item1
+            border: 1px solid #fdb931
+            margin-right: 10px
+            padding: 5px
+            border-radius: 12px
+            .headerright-links
+                color: black
+                text-decoration: none
+                font-size: 18px
+        .headerright-item2
+            border: 1px solid black
+            margin-right: 10px
+            padding: 5px
+            border-radius: 12px
+            background: black
+            .headerright-links
+                color: white
+                text-decoration: none
+                font-size: 18px
+                text-align: center
+                i
+                    font-size: 12px
+        .headerright-item3
+            border: 1px solid #fbc33a
+            background: #fbc33a
+            width: 40px
+            height: 40px
+            border-radius: 50%
+            text-align: center
+            line-height: 40px
+            .headerright-links
+                color: black
+                text-decoration: none
+.section1
+    background: #eeeeee
+    padding: 30px 0
+    .section1-container
+        width: 70%
+        display: flex
+        margin: auto
+        justify-content: space-between
+        .firstblock
+            margin-top: 50px
+            .section1-title
+                font-size: 50px
+                text-transform: uppercase
+                font-weight: 700
+            .section-box
+                display: flex
+                .box-div
+                    background: black
+                    border: 1px solid black
+                    border-radius: 5px
+                    color: white
+                    width: 150px
+                    height: 150px
+                    margin: 10px
+                    position: relative
+                    .bottom-text
+                        position: absolute
+                        bottom: 5px
+                        left: 50%
+                        transform: translate(-50%)
+                        text-transform: capitalize
+.slide
+    background: #ffc03f
+    width: 45%
+    text-align: center
+    padding: 60px 0
+    position: relative
+    .slide-title
+        font-size: 30px
+        text-transform: uppercase
+        font-weight: 700
+    .left
+        border: 1px solid #ac7302
+        color: #cc8c0c
+        width: 30px
+        height: 30px
+        display: inline-block
+        border-radius: 50%
+        text-align: center
+        line-height: 30px
+        margin-right: 10px
+    .right
+        border: 1px solid black
+        color: black
+        width: 30px
+        height: 30px
+        display: inline-block
+        border-radius: 50%
+        text-align: center
+        line-height: 30px
+    .slide-item
+        position:  absolute
+        top: 50%
+        right: -100%
+        transform: translatey(-50%)
+        display: flex
+        justify-content: space-between
+        
+
+        .slide-items
+            width: 200px
+            height: 200px
+            background: #868484
+            border: 1px solid #868484
+            border-radius: 2px
+            box-shadow: 0 0 2px 2px rgba(40,40 ,40 ,0.6 )
+            margin-right: 20px
+            .card-text
+                position: absolute
+                bottom: 10px
+                transform: translate(20%)
+                text-transform: uppercase
+                color: white
+            .price
+                width: 35px
+                height: 35px
+                background: white
+                position: absolute
+                bottom: 20px
+                transform: translate(-50%)
+                border: 1px solid white
+                border-radius: 2px
+                box-shadow: 0 0 2px 2px rgba(40,40 ,40 ,0.6 )
+                font-weight: 600
+.contact
+    width: 70%
+    margin: auto
+    display: flex
+    justify-content: space-between
+    padding: 30px 0
+    .contact-item
+        position: relative
+        i 
+            position: absolute
+            left: -60px
+            top: 30%
+            font-size: 50px
+        .contact-title
+            color: gray
+            font-size: 22px
+            text-transform: uppercase
+            
+        .contact-text
+            font-weight: 700
+            text-transform: uppercase
+.about
+    padding: 20px 0
+    
+
+    .about-content
+        display: flex
+        width: 70%
+        height: 300px
+        margin: auto
+        box-sizing: border-box
+        position: relative
+        box-shadow: 0 0 1px 0
+        
+        
+        
+        .square1
+            position: absolute
+            left: 0
+            bottom: -20px
+            width: 200px
+            height: 50px
+            background: #64ccf3
+            transform: translate(-50px)
+        .square2
+            position: absolute
+            right: 0
+            width: 200px
+            height: 300px
+            background: #64ccf3
+            transform: translate(50px)
+            bottom: -20px
+            
+        .about-text
+            width: 50%
+            background: white
+            z-index: 1
+            
+            .about-title
+                font-weight: 700
+                text-transform: uppercase
+                font-size: 30px
+                padding: 10px 0
+                h3  
+                    font-size: 22px
+            .about-word
+                font-size: 18px
+            .about-list
+                display: flex
+                justify-content: flex-end
+                .about-item
+                    margin-right: 20px 
+                    width: 30px
+                    height: 30px
+                    text-align: center
+                    line-height: 30px
+                    border-radius: 50%
+                    &:nth-child(1)
+                        background: blue
+                        i
+                            color: white
+                            text-align: center
+                    &:nth-child(2)
+                        background: #64ccf3
+                        i
+                            color: white
+                    &:nth-child(3)
+                        background: #d37c29
+                        i
+                            color: white
+                                
+                    .about-links
+                        text-decoration: none 
+                        
+                                                           
+        .about-play
+            position: relative
+            background: #c2bbbb
+            width: 50%
+
+            
+            .play
+                position: absolute
+                width: 50px
+                height: 50px
+                border: 1px solid gold
+                color: white
+                background: gold
+                text-align: center
+                border-radius: 50%
+                line-height: 50px
+                top: 15%
+                transform: translate(-50%)
+                z-index: 2
+.reg
+    padding: 30px 0
+    display: flex
+    justify-content: center
+    .reg-logo
+        width: 50%
+    .reg-title
+        font-weight: 700
+        text-transform: uppercase
+    .reg-text
+        text-transform: capitalize
+        font-size: 22px
+    .name 
+        margin-bottom: 20px
+        display: block
+        width: 100%
+        padding: 5px
+    .location,.phone
+        padding: 5px
+    .reg-title2
+        font-weight: 700
+        text-transform: capitalize
+        padding: 10px 0
+    .reg-square
+        display: flex
+        justify-content: space-between
+        .square-item
+            width: 80px
+            height: 100px 
+            border: 1px solid gray
+            text-align: center
+            cursor: pointer
+            
+            &:hover
+                border: 1px solid #579fc1
+            
+            i 
+                color: #579fc1
+                font-size: 30px
+                line-height: 60px
+            .square-text
+                text-transform: capitalize
+    .reg-btn
+        padding: 15px
+        margin-top: 30px
+        color: white
+        background: black
+        border: 1px solid black
+        border-radius: 20px
+        text-transform: capitalize
+.slide-down
+    background: #579fc1
+    display: flex
+    padding: 40px 0
+    align-items: center
+
+    .slide-down-item
+        text-align: center
+        margin-left: 40px
+        .title-slide
+            color: white
+            font-weight: 700
+            text-transform: uppercase
+            font-size: 30px
+            padding: 10px
+        .text-slide
+            color: white
+            padding: 10px
+        .click-slide
+            padding: 10px 0
+            .chevron
+                i
+                    width: 30px
+                    height: 30px
+                    border: 1px solid white
+                    text-align: center
+                    line-height: 30px
+                    color: white
+                    border-radius: 50%
+                    margin: 5px
+                    opacity: 0.6
+                    cursor: pointer
+                    &:hover
+                        opacity: 1
+            
+    .slide-boxes
+        margin-left: 40px
+        display: flex
+        .box-item
+            background: gray
+            border: 1px solid gray
+            width: 200px
+            height: 200px
+            margin-left: 30px
+            position: relative
+            text-align: center
+            border-radius: 2px
+            box-shadow: 0 0 2px 2px rgba(40,40 ,40 ,0.6 )
+            .boxes-text
+                position: absolute
+                bottom: 10px
+                left: 50%
+                transform: translate(-50%)
+                color: white
+                text-transform: uppercase
+                font-weight: 600
+            .box-content
+                position: absolute
+                width: 50px
+                height: 50px
+                border: 1px solid white
+                background: white
+                color: black
+                font-weight: bold
+                text-transform: uppercase
+                font-size: 15px
+                left: 0
+                bottom: 10%
+                transform: translate(-50%)
+                box-shadow: 0 0 2px 2px rgba(40,40 ,40 ,0.6 )
+.customer
+    display: flex
+    background: #e6e6e6
+    padding: 30px 0
+    .row
+        margin: 0
+    .circle
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        align-content: space-between 
+        border-right: 1px solid gray  
+        .circle-items
+            width: 80px
+            height: 80px
+            background: gray
+            border: 1px solid gray
+            border-radius: 50%
+            margin: 10px 0
+        #circle-items
+            width: 100px
+            height: 100px
+
+    .customer-text
+        text-align: justify
+        .customer-title
+            text-transform: uppercase
+            font-weight: 700
+            color: black
+            padding: 10px 0
+        .customer-words
+            padding: 20px 0
+        h3
+            text-transform: uppercase
+            color: black
+            font-weight: 700
+            font-size: 22px
+            padding-top: 20px
+        p
+            text-transform: capitalize
+                
+.blog
+    padding: 20px 0
+    
+    .blog-title
+        font-weight: bold
+        text-align: center
+        color: black
+        text-transform: uppercase
+        padding: 10px 0
+    .row
+        margin: 0
+        .col-lg-8
+            padding: 0
+            .blog-item
+                display: flex
+                justify-content: space-between
+                .blog-items
+                    
+                    box-shadow: 0 0 2px 2px rgba(40,40 ,40 ,0.6 )
+                    .blog-body
+                        background: gray
+                        padding: 60px 0
+                    .blog-subtitle
+                        font-size: 18px 
+                        text-transform: capitalize
+                        font-weight: 600
+                        color: black
+                        padding: 0 10px
+                    .date
+                        color: #f1c666
+                        padding: 10px
+                    .blog-text
+                        padding: 0 10px
+
+.underpage
+    display: flex
+    justify-content: space-evenly 
+    padding: 30px 0
+    background: #f1f1f1
+    align-items: center
+    border-bottom: 1px solid gray
+    
+    .betop
+        border-right: 1px solid gray
+        margin-left: 120px
+        padding: 30px 20px
+        .betop-title
+            font-weight: 700
+            text-transform: capitalize
+        .betop-text
+            text-transform: capitalize
+            color: black
+        .betop-list
+            display: flex
+            justify-content: flex-end
+            .betop-item
+                width: 30px
+                height: 30px
+                border: 1px solid black
+                text-align: center
+                line-height: 30px
+                margin: 5px
+                border-radius: 2px
+                color: white
+                &:nth-child(1)
+                    background: #294c93
+                    border: 1px solid #294c93
+                &:nth-child(2)
+                    background: #19a1df
+                    border: 1px solid #19a1df
+                &:nth-child(3)
+                    background: #7c7c7c
+                    border: 1px solid #7c7c7c
+                    
+                    
+                i
+                    color: white
+    .work-date
+        text-transform: capitalize
+        color: black 
+        .work-title
+            font-weight: 700
+            text-transform: uppercase
+            color: black   
+    .subscribe
+        position: relative
+        .email
+            border: 1px solid white  
+            border-radius: 20px
+            padding: 10px  
+            &:focus
+                outline: none
+        .subscribe-btn
+            padding: 10px
+            color: white
+            border: 1px solid black
+            background: black  
+            text-transform: uppercase
+            border-radius: 20px 
+            position: absolute
+            transform: translate(-50%) 
+            &:focus
+                outline: none
+.down-page
+    background: #f1f1f1
+    
+    .row
+        margin: 0
+        .col-lg-6
+            padding: 0
+    
+        .downlist
+            display: flex
+            justify-content: space-between
+            
+            padding: 20px
+            .down-links
+                text-decoration: none
+                color: black
+                
+                font-size: 22px
+                text-transform: capitalize
+        .copywrite
+            padding: 20px
+            text-transform: capitalize
+            font-size: 18px
+            text-align: right
+
+            
+            
+            
+.togle
+    transform: scale(1.1)
+            
+
+                
+                
+                
+                
+                
+            
+            
+                
+            
+        
+
+        
+
+
+           
+
+        
+    
